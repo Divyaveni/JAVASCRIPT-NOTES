@@ -1,12 +1,13 @@
-JS INTRO:
+//JS INTRO:
 
-html->content
-css-> adds styles ,handles presentation
-javascript->manipulates html,css 
+//html->content
+//css-> adds styles ,handles presentation
+//javascript->manipulates html,css 
 
-variables->containers   operators-> symbols used to perform some actions on variables                      
-ex:console.clear();
-   var num1 = 2;               plus,minus,multiply,divide,comprision etc.                   
+//variables->containers   operators-> symbols used to perform some actions on variables                      
+//ex:
+console.clear();
+   var num1 = 2;             //  plus,minus,multiply,divide,comprision etc.                   
    var num2 = 4;                                                                           
    var num3 = 6;
 
