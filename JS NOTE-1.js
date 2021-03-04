@@ -25,10 +25,10 @@ var FirstNum;
 var first_num;
 
 
-DATATYPES:
+//DATATYPES:
 
-numbers
-ex:
+//numbers
+//ex:
 console.clear()
 
 var num1 = 10 //Integer
@@ -63,15 +63,15 @@ console.log(mulByString);
 console.log(type(mulByString));
 
 
-IN-BUILT NUMBERS FUNCTIONS:
+//IN-BUILT NUMBERS FUNCTIONS:
 
 console.clear()
 var num1 = 10;
 var num2 = 20.3;
 
 // toString() number as input and returns a string
-console.log(num1.toString())             -------->"10"
-console.log(num2.toString())             -------->"20.3"
+console.log(num1.toString())            // -------->"10"
+console.log(num2.toString())            // -------->"20.3"
 
 var strNum1 = "10";
 var strNum2 = "11.5";
@@ -93,7 +93,8 @@ console.log(strFloat.toFixed(2));
 console.log(strFloat.toFixed(5));
 console.log(strFloat.toFixed(10));
 
-STRINGS:
+//STRINGS:
+
 console.clear()
 var myFirstString = "I love JavaScript"
 console.log(typeof(myFirstString))
@@ -108,20 +109,21 @@ console.log(doubleQuotesString)
 var singleQuotessString = 'This is a \'JavaScript\' string' 
 console.log(singleQuoteString)
 
-INBUILT FUNCTIONS-1:
+//INBUILT FUNCTIONS-1:
+
 var myFirstString = "This is a string for Javascript string Functions,Javascript"
 //REturns leng of the string
 console.log(myFirstString.length)
-// Find index of a string inside another string      output:
-console.log(myFirstString.indexof('Javascript'))   -------->21
-console.log(myFirstString.indexof('This'))         -------->0
+// Find index of a string inside another string     // output:
+console.log(myFirstString.indexof('Javascript'))   //-------->21
+console.log(myFirstString.indexof('This'))         //-------->0
 //Find LAST index of a string inside another string
-console.log(myFirstString.lastindexof('Javascript'))-------->50
+console.log(myFirstString.lastindexof('Javascript'))//-------->50
 //get a part of our string slice(start,end)
-console.log(myFirstString.slice(0,4))               --------->"Javascript"
-console.log(myFirstString.slice(-10))               --------->"Javascript"
-console.log(myFirstString.slice(5))                 --------->"is a string for Javascript string Functions,Javascript"
+console.log(myFirstString.slice(0,4))               //--------->"Javascript"
+console.log(myFirstString.slice(-10))               //--------->"Javascript"
+console.log(myFirstString.slice(5))                 //--------->"is a string for Javascript string Functions,Javascript"
 //get sub string functn - substr(startpos,length)
-console.log(myFirstString.substr(0,4))              --------->"This"
-console.log(myFirstString.substr(21,10))            --------->"Javascript"
-console.log(myFirstString.substr(21))               --------->" Javascript string Functions,Javascript"
+console.log(myFirstString.substr(0,4))             // --------->"This"
+console.log(myFirstString.substr(21,10))           // --------->"Javascript"
+console.log(myFirstString.substr(21))              // --------->" Javascript string Functions,Javascript"
