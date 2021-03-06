@@ -3,10 +3,10 @@
 var exampleString = "This is JavaScript tutorial"
 
 //toUpperCase() - It converts our string ->uppercase characters
-console.log(exampleString.toUpperCase())            --------->"THIS IS JAVASCRIPT TUTORIAL"
+console.log(exampleString.toUpperCase())           // --------->"THIS IS JAVASCRIPT TUTORIAL"
 
 //toLowerCase() - It converts our string ->lowrcase characters
-console.log(exampleString.toLowerCase())            --------->  "this is javascript tutorial"     
+console.log(exampleString.toLowerCase())           // --------->  "this is javascript tutorial"     
 
 //concat() - It merges two or more strings
 var firstName = "Javascript"
